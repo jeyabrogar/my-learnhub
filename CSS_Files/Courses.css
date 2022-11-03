@@ -92,6 +92,9 @@
   display: inline-block;
   font-family: sans-serif;
   border-style: solid;
+  border-color: #888888;
+  box-shadow:  3px 5px #888888;
+  margin: 8px;
   border-radius: 7px;
   border-width: 0.1cm;
   padding-left: 1.5px;
@@ -103,11 +106,6 @@
   padding-top: 20px;
   margin-top: -7px;
   background-color: #f5f5f5;
-
-}
-.containercard1 card-footer{
-padding-top: 20px;
-
 }
 .description1{
   padding-top: 20px;
@@ -125,6 +123,9 @@ padding-top: 20px;
 .card-footer1 :hover{
   background-color: #0b7dda;
 }
+.learmore-button :hover{
+  color: #0b7dda;
+}
 
  /* card#1 ends here --------------------------- */
 .section2{
@@ -141,11 +142,14 @@ padding-top: 20px;
   font-family: sans-serif;
   vertical-align: top;
   border-style: solid;
+  border-color: #888888;
+  box-shadow:  3px 5px #888888;
   border-radius: 7px;
   border-width: 0.1cm;
   padding-left: 1.5px;
   padding-top: 1.5px;
   padding-right: 4px;
+  margin: 8px;
   width: 28%;
 }
 .description2{
@@ -175,11 +179,14 @@ padding-top: 20px;
   display: inline-block;
   font-family: sans-serif;
   border-style: solid;
+  border-color: #888888;
+  box-shadow:  3px 5px #888888;
   border-radius: 7px;
   border-width: 0.1cm;
   padding-left: 1.5px;
   padding-top: 1.5px;
   padding-right: 4px;
+  margin: 8px;
   width: 28%;
 }
 .description3{
@@ -267,12 +274,22 @@ padding-top: 20px;
   display: inline-block;
   padding-left: 120px;
   line-height: 50px;
-
-  
 }
 .footer2-2 a{
   font-family: sans-serif;
   text-decoration: none;
   padding-left: 30px;
   color: white;
+}
+.footer2-2 ul li{
+  display: inline-block;
+  line-height: 15px;
+  padding: 5px;
+}
+.footer2-2 ul li a{
+  display: inline-block;
+  padding: 5px;
+}
+.footer2-2 li:hover{
+  background-color: #18468c;
 }
